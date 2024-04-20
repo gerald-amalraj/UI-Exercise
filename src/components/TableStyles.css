@@ -1,0 +1,19 @@
+body {
+    background: -webkit-linear-gradient(left, #98DEE5, #8FEFE2);
+  }
+  
+  .plus {
+    color: #3609F0;
+  }
+  
+  .minus {
+    color: #FC0917;
+  }
+
+  .row-background {
+    background-color: rgba(237, 11, 11, 0.70);;
+  }
+  
+  .row-alternate-background {
+    background-color: rgba(255, 255, 255, 0.7);;
+  }

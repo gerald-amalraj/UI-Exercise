@@ -1,0 +1,38 @@
+[
+    {
+      "assetName": "Commodity",
+      "ticker": "Alpha",
+      "price": "-100",
+      "order":"1"
+    },
+    {
+      "assetName": "Equity",
+      "ticker": "Beta",
+      "price": "+54",
+      "order":"2"
+    },
+    {
+      "assetName": "Credit",
+      "ticker": "Gamma",
+      "price": "-39",
+      "order":"3"
+    },
+    {
+      "assetName": "Equity",
+      "ticker": "Delta",
+      "price": "+50",
+      "order":"2"
+    },
+    {
+      "assetName": "Credit",
+      "ticker": "Epsilon",
+      "price": "+200",
+      "order":"3"
+    },
+    {
+      "assetName": "Commodity",
+      "ticker": "Zeta",
+      "price": "-42",
+      "order":"1"
+    }
+  ]
