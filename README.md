@@ -6,23 +6,20 @@ React single page application to display a Data Table component.
 ## Run Locally
 
 Clone the project
-
-```bash
+ ```bash
   git clone https://github.com/gerald-amalraj/UI-Exercise.git
 ```
 
 Install dependencies
-
 ```bash
   npm install
 ```
 
-Start the server
-
+Build the app
 ```bash
   npm run build
 ```
-
+Start the server
 ```bash
   npm run dev
 ```
