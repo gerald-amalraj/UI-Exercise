@@ -23,3 +23,4 @@ Start the server
 ```bash
   npm run dev
 ```
+Application Url will be displayed once the server is started.
