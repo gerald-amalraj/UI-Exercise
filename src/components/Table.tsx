@@ -1,47 +1,11 @@
 import DataTable from "react-data-table-component";
 import { useState } from "react";
 import './TableStyles.css';
-import jsonData from "../services/arbs.json";
 
-function Table() {
-  const columns = [
-    {
-      name: "Asset",
-      cell: (row:any) => row.assetName,
-      sortable: true,
-      selector:"assetName"
-    },
-    {
-      name: "Ticker",
-      cell: (row:any) => row.ticker,
-      sortable: true,
-      selector:"ticker"
-    },
-    {
-      name: "Price",
-      selector: "price",
-      sortable: true,
-      cell: (row:any) => {
-        if (row.price < 0) {
-          return (
-            <div className="minus">
-              {row.price}
-            </div>
-          );
-        } else if (row.price >= 0) {
-          return (
-            <div className="plus">
-              {row.price}
-            </div>
-          );
-        }
-      }
-    },
-  ];
+function Table({ columns, data }) {
 
-  const [data, setData] = useState(jsonData);
   const [sortedField, setSortedField] = useState('');
-  const [sortDirection, setSortDirection] = useState(0);
+  const [sortDirection, setSortDirection] = useState('');
 
     const handleSort = (column:any) => {
     if (column.selector === sortedField) {
