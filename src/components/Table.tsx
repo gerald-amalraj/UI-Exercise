@@ -17,8 +17,8 @@ function Table({ columns, data }) {
   };
 
   const customSort = (rows:any, field:any, direction:any) => {
-    let multiplier = direction === "asc" ? 1 : -1;
-    let attr = field === "assetName" ? "order" :field;
+    const multiplier = direction === "asc" ? 1 : -1;
+    const attr = field === "assetName" ? "order" :field;
     return rows.sort((a:any, b:any) => {
       if (a[attr] < b[attr]) return -1 * multiplier;
       if (a[attr] > b[attr]) return 1 * multiplier;
