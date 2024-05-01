@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
-import jsonData from "../services/arbs.json";
+
 import Table from './Table';
 
-const TableContainer = () => {
+const TableContainer = ({data}) => {
 
     const columns = useMemo(
         () => [
@@ -42,7 +42,7 @@ const TableContainer = () => {
       []
     );
   
-    return <Table columns={columns} data={jsonData} />;
+    return <Table columns={columns} data={data} />;
   };
   
   export default TableContainer;

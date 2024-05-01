@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import TableContainer from "./components/TableContainer";
+import DataLoader from "./components/DataLoader";
 
 function App() {
   return (
     <>
-      <TableContainer />
+    <DataLoader />
     </>
   );
 }
