@@ -2,7 +2,7 @@ import DataTable from "react-data-table-component";
 import { useState } from "react";
 import './TableStyles.css';
 
-function Table({ columns, data }) {
+const Table = ({ columns, data }) => {
 
   const [sortedField, setSortedField] = useState('');
   const [sortDirection, setSortDirection] = useState('');
